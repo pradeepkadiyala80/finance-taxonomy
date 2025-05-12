@@ -1,46 +1,66 @@
+---
 version: 3
 domain: personal_finance
 created_by: pradeepkadiyala80
 seed_examples:
   - context: |
-      Personal finance refers to the management of individual or household financial activities such as earning, budgeting, saving, investing, and protecting money. It involves understanding and applying financial principles to meet personal financial goals like saving for retirement, buying a home, or building an emergency fund.
+      Personal finance refers to the management of individual or household
+      financial activities such as earning, budgeting, saving, investing,
+      and protecting money.It involves understanding and applying financial
+      principles to meet personal financial goals like saving for retirement,
+      buying a home, or building an emergency fund.
     questions_and_answers:
       - question: |
           What is personal finance?
         answer: |
-          Personal finance refers to the management of individual or household financial activities such as earning, budgeting, saving, investing, and protecting money.
+          Personal finance refers to the management of individual or
+          household financial activities such as earning, budgeting,
+          saving, investing, and protecting money.
       - question: |
           Why is personal finance important?
         answer: |
-          It helps individuals plan and achieve financial goals like retirement, buying a home, or building an emergency fund.
+          It helps individuals plan and achieve financial goals like
+          retirement, buying a home, or building an emergency fund.
       - question: |
           What are examples of personal finance activities?
         answer: |
-          Examples include budgeting, saving, investing, retirement planning, and managing insurance.
+          Examples include budgeting, saving, investing, retirement
+          planning, and managing insurance.
 
   - context: |
-      Budgeting is a core aspect of personal finance that involves creating a plan for how to allocate income toward expenses, savings, and debt repayment. Common budgeting methods include the 50/30/20 rule, zero-based budgeting, and envelope budgeting.
+      Budgeting is a core aspect of personal finance that involves creating
+      a plan for how to allocate income toward expenses, savings, and debt
+      repayment. Common budgeting methods include the 50/30/20 rule,
+      zero-based budgeting, and envelope budgeting.
     questions_and_answers:
       - question: |
           What is budgeting in personal finance?
         answer: |
-          Budgeting is creating a plan for how to allocate income toward expenses, savings, and debt repayment.
+          Budgeting is creating a plan for how to allocate income toward
+          expenses, savings, and debt repayment.
       - question: |
           What are common budgeting methods?
         answer: |
-          Common budgeting methods include the 50/30/20 rule, zero-based budgeting, and envelope budgeting.
+          Common budgeting methods include the 50/30/20 rule, zero-based
+          budgeting, and envelope budgeting.
       - question: |
           Why is budgeting important in personal finance?
         answer: |
-          Budgeting helps control spending, ensure savings, and prevent debt accumulation.
+          Budgeting helps control spending, ensure savings, and prevent
+          debt accumulation.
 
   - context: |
-      Debt management involves strategies for handling personal debt, such as consolidating loans, refinancing at lower interest rates, or using the debt snowball or avalanche methods. Good debt management helps improve credit scores and reduce financial stress.
+      Debt management involves strategies for handling personal debt, such
+      as consolidating loans, refinancing at lower interest rates, or using
+      the debt snowball or avalanche methods. Good debt management helps
+      improve credit scores and reduce financial stress.
     questions_and_answers:
       - question: |
           What is debt management?
         answer: |
-          Debt management involves strategies for handling personal debt, like consolidation, refinancing, or using methods like the debt snowball or avalanche.
+          Debt management involves strategies for handling personal debt, like
+          consolidation, refinancing, or using methods like the debt snowball
+          or avalanche.
       - question: |
           How does debt management benefit individuals?
         answer: |
@@ -51,42 +71,56 @@ seed_examples:
           The debt snowball method and the debt avalanche method.
 
   - context: |
-      Emergency funds are savings set aside to cover unexpected expenses like medical emergencies, car repairs, or sudden job loss. Financial advisors typically recommend saving three to six months' worth of living expenses in an easily accessible account.
+      Emergency funds are savings set aside to cover unexpected expenses like
+      medical emergencies, car repairs, or sudden job loss. Financial advisors
+      typically recommend saving three to six months' worth of living expenses
+      in an easily accessible account.
     questions_and_answers:
       - question: |
           What is an emergency fund?
         answer: |
-          An emergency fund is savings set aside to cover unexpected expenses like medical emergencies, car repairs, or sudden job loss.
+          An emergency fund is savings set aside to cover unexpected expenses
+          like medical emergencies, car repairs, or sudden job loss.
       - question: |
           How much should be saved in an emergency fund?
         answer: |
-          Financial advisors recommend saving three to six months' worth of living expenses.
+          Financial advisors recommend saving three to six months' worth
+          of living expenses.
       - question: |
           Why is an emergency fund important?
         answer: |
-          It provides financial security and helps avoid debt during unforeseen events.
+          It provides financial security and helps avoid debt during
+          unforeseen events.
 
   - context: |
-      Investing is the process of putting money into financial assets such as stocks, bonds, or real estate with the expectation of generating a return over time. Investment strategies can vary based on risk tolerance, financial goals, and time horizon.
+      Investing is the process of putting money into financial assets such as
+      stocks, bonds, or real estate with the expectation of generating a
+      return over time. Investment strategies can vary based on risk
+      tolerance, financial goals, and time horizon.
     questions_and_answers:
       - question: |
           What is investing?
         answer: |
-          Investing is putting money into financial assets like stocks, bonds, or real estate to generate returns over time.
+          Investing is putting money into financial assets like stocks,
+          bonds, or real estate to generate returns over time.
       - question: |
           What factors influence investment strategies?
         answer: |
-          Risk tolerance, financial goals, and time horizon influence investment strategies.
+          Risk tolerance, financial goals, and time horizon influence
+          investment strategies.
       - question: |
           Why should individuals invest their money?
         answer: |
-          Investing helps grow wealth, beat inflation, and reach long-term financial goals like retirement or education funding.
+          Investing helps grow wealth, beat inflation, and reach long-term
+          financial goals like retirement or education funding.
 
 document_outline: |
-  Information about personal finance fundamentals, including budgeting, debt management, emergency funds, investing, and the importance of financial planning for achieving personal financial goals.
+  Information about personal finance fundamentals, including budgeting,
+  debt management, emergency funds, investing, and the importance of
+  financial planning for achieving personal financial goals.
 
 document:
   repo: https://github.com/pradeepkadiyala80/personalfinance-knowledge
   commit: 33c162499b791bc94996edde5ed3ef1b191a7dcb
   patterns:
-    - *.md
+    - "*.md"
